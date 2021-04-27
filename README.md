@@ -1,36 +1,35 @@
 # AceBook - Pipeface
 
-REQUIRED INSTRUCTIONS:
+Welcome to Pipeface! A web styled facebook clone that we developed through weeks 8-9 of Makers Academy. 
+We worked in two day sprints for a two week period using Ruby, Ruby on Rails, RSpec, Bootstrap, CSS, CircleCI and Heroku. As a group we decided on the name Pipeface and used this as continued theme throughout our project. The project centered around implementing the CRUD functionality. 
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+We used Trello to plan our sprints and tasks and used GitHub issues to track issues and resolve them accordingly.
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+## How to use
 
-2. The card wall is here: <please update>
-
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## Quickstart
-
-First, clone this repository. Then:
-
-```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
-
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+### To download the repo, install packages and setup the database please follow the instructions below:
+```
+Clone repo
+```
+```
+Change directory cd Pipeface
+```
+```
+Install gems bundle
+```
+```
+Create the databases rails db:create
+```
+```
+Migrate the databases rais db:migrate
 ```
 
-## Troubleshooting
-
-If you don't have Node.js installed yet, you might run into this error when running rspec:
+### To use the app:
 ```
-ExecJS::RuntimeUnavailable:
-  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
- ```
-That is because Rails will use a Javascript runtime (such as Node) under the hood. The easiest way is to install Node by running `brew install node` -
-and then run `bundle exec rspec` again
+Run local server rails server
+```
+```
+Open browser and head to http://localhost:3000
+```
+
+
